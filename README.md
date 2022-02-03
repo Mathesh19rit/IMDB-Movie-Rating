@@ -14,3 +14,50 @@ Azure machine learning studio is used to create, train and evaluate the machine 
 ![Score module](https://user-images.githubusercontent.com/90832522/152370122-09d9fa46-28b4-432b-8d76-4e266355fa01.PNG)
 # EVALUVATED MODEL FOR IMDB MOVIE RATING
 ![Evaluvate module](https://user-images.githubusercontent.com/90832522/152370274-faaa27d3-d2c0-4c35-b605-7644e236453c.PNG)
+# DETAILED DESCRIPTION
+Create Project/Experiment and import movie rating data set from saved dataset samples. After creating experiment, we need to drag and drop the required modules in canvas.
+
+I have used the below modules for my experiment in the given order
+
+
+
+    DATA SET:
+ 
+      Data set required for experiment is added
+   
+    IMDB MOVIE TITLES:
+ 
+        This data set consists of movie id and movie names.
+   
+    Editing Metadata:
+ 
+      Used to change data type of fields, etc.
+   
+    Join data:
+ 
+      Used to join the above two dataset.
+   
+    Select column in dataset:
+ 
+      Select columns to inclue or exclude from a dataset in an operation.formerly known as project columns.
+   
+    Remove duplicate rows:
+ 
+      Remove the duplicate rows from a dataset.
+   
+    Split data:
+ 
+      split the rows of a dataset into two distinct areas,here the dataset is splitted into Train and Score matchbox recommender.
+   
+    Train matchbox recommender:
+ 
+      Train a bayesian recommender using the matchbox algorithm.
+   
+    Score matchbox recommender:
+ 
+      It scores a dataset using matchbox recommender.
+   
+    Evaluate recommender:
+ 
+      this is the final dataset it evaluates and gives the accuracy values 
+      this evaluate recommender is used to evaluates a recommender model.
